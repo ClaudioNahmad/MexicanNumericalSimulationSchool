@@ -1,0 +1,30 @@
+https://help.github.com/articles/syncing-a-fork/
+https://help.github.com/articles/fork-a-repo/
+
+1.On github navigate to YOUR fork of the spoon-knife repo
+2.Under your repo name, click "clone or download" and copy the clone URL
+3.Open terminal
+4.Type "git clone" and paste the URL and press enter, your local clone will be created
+5.Now you have a local copy of your fork of the spoon-knife repo
+
+TO CONFIGURE SYNC WITH THE ORIGINAL SPOON-KNIFE:
+
+1.On github go to the spoon-knife repo (original repo, the one you forked)
+2.Click "clone or dowload" and copy URL
+3.Open Terminal
+4.Change the directories to the location of the fork you cloned in step 4 (first)
+5.type "git remote -v" and press enter, you'll see the current configured remote repo for your fork like: "origin----(fetch) and origin-----(push)"
+6.Type "git remote add upstream" and paste the URL from the original repo, press enter.
+7.If you type again "git remote -v" you will see the upstream repo
+
+TO ACTUALLY SYNC YOUR FORK WITH THE ORIGINAL SPOON-KNIFE:
+
+1.Open terminal
+2.Go to your local project's directory
+3.Fetch the branches and their respective commits from the UPSTREAM repo. i.e. commits to master will be stored in a local branch: upstream/master. You do this by typing 
+	"git fetch upstream"
+4.Checkout your fork's local master branch with "git checkout master"
+5.Merge the changes from upstream/master into your local master branch. This brings your fork's master branch into sync with the upstream repo WITHOUT LOSING YOUR LOCAL CHANGES, do this by typing 
+	"git merge upstream/master"
+
+done
