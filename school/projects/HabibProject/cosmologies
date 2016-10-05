@@ -15,61 +15,42 @@ WMAP 7:
 
 source: https://lambda.gsfc.nasa.gov/product/map/dr4/params/lcdm_sz_lens_wmap7.cfm
 
-
-omega_m= 0.266 pm 0.029 
-omega_m*h2= 0.1334 pm 0.0055
-omega_b= 0.0449 pm 0.0028
-omega_b*h2= 0.02258 pm 0.00057
-
-1-n_s= 0.037 pm 0.014 then n_s= 0.963 pm 0.014
-sigma_8= 0.801 pm 0.030
-w= -1 (equation of state of dark energy, its -1 'cause LambdaCDM model)
-z: arbitrary, depends on user
-H0= 71.0 pm 2.5
+omega_m*h2= 0.1334
+omega_b*h2= 0.02258
+n_s= 0.963
+sigma_8= 0.801
+w= -1
+z= 0
+H0= 70.8 
+ 
 
 ########################
 WMAP 9:
 
 source: https://lambda.gsfc.nasa.gov/product/map/dr5/params/lcdm_wmap9.cfm
 
-omega_m= 0.279 pm 0.025 
-omega_m*h2= 0.1364 pm 0.0044
-omega_b= 0.0463 pm 0.0024
-omega_b*h2= 0.02264 pm 0.00050
-
-n_s= 0.972 pm 0.013
-sigma_8= 0.821 pm 0.023
+  
+omega_m*h2= 0.1364  
+omega_b*h2= 0.02264 
+n_s= 0.972 
+sigma_8= 0.821 
 w= -1 ('cause LCDM model)
-z: arbitrary between 0 and 1
-H0=70.0 pm 2.2
+z= 0
+H0=70.0 
 
 ########################
 Planck:
 
-source1: https://arxiv.org/abs/1502.01589
-source2: http://pdg.lbl.gov/2015/reviews/rpp2015-rev-cosmological-parameters.pdf
+source1: https://arxiv.org/abs/1502.01589 table 4 column 3
 
-omega_m= 0.308 pm 0.012 [1] [2]
-then omega_m*h2= 0.1416 (direct product by h #check bottom line#)
-omega_b*h2= 0.02226 pm 0.00023
-
-n_s= 0.968 pm 0.006 [1] [2]
-sigma_8= 0.815 pm 0.009 [2]
-w= -1.006 pm 0.045 [1]
-z:0 or 1 (test with 0)
-H0= 67.8 pm 0.9 [1]
-
-
-h= 0.678 pm 0.009 [2] 
+omega_m*h2= 0.1413
+omega_b*h2= 0.02227 
+n_s= 0.9681
+sigma_8= 0.8154
+w= -1
+z= 0
+H0= 67.9 
  
-
-
-
-
-
-
-
-
-
+ 
 
 
