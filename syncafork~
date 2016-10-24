@@ -28,10 +28,3 @@ TO ACTUALLY SYNC YOUR FORK WITH THE ORIGINAL SPOON-KNIFE:
 	"git merge upstream/master"
 
 done
-
-git add .
-git commit -h "comment"
-git push ¿master?
-
-git fetch upstream
-git merge upstream/master
