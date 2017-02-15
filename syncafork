@@ -30,7 +30,7 @@ TO ACTUALLY SYNC YOUR FORK WITH THE ORIGINAL SPOON-KNIFE:
 done
 
 git add . (or git add -a)
-git commit -A -h "comment"
+git commit -a -m "comment"
 git push 
 (if something was updated from the browser, you must type git pull)
 
